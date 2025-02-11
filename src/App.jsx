@@ -8,14 +8,18 @@ const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=34e0f3ce";
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [formData, setformData] = useState({searchTerm: ""});
+  const [movieData, setMovieData] = useState (null);
 
 
+  function getMovie () {
+    const 
+  }
 
   return (
     <>
-    <Form/>
-    <MovieDisplay/>
+      <Form setFormData={setformData} formData={formData}/>
+      <MovieDisplay/>
     </>
   )
 }
