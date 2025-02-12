@@ -41,6 +41,8 @@ function App() {
   useEffect(()=>{
     getMovie("Mortal Kombat")
   },[])
+
+  
   return (
     <>
       <Form moviesearch={getMovie}/>

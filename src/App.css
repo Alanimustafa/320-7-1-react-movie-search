@@ -54,4 +54,14 @@ img {
 
 h1, h2, h3, h4 {
   color: wheat;
+  text-shadow: black 4px 4px 5px;
+}
+
+.displayContainer {
+  border: orange solid 2px;
+  justify-self: center;
+  width: 80vw;
+  margin-top: 2vh;
+  border-radius: 10px;
+  box-shadow: wheat 0px 0px 10px;;
 }

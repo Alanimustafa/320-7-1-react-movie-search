@@ -21,7 +21,7 @@ export default function Form (props) {
 
     return (
         <>
-        <h3 className="formHeader">Form</h3>
+        
         <div className="formContainer">
             <form onSubmit={handleSubmit}>
                 <input type="text" placeholder="Serach" name="searchterm" onChange={handleChange} value={formData.searchterm}/>
